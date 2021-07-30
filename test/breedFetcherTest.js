@@ -22,7 +22,7 @@ describe('fetchBreedDescription', () => {
       // we expect no error for this scenario
       assert.equal(desc, null);
 
-      const expectedDesc = "The requseted rohit is not found"
+      const expectedDesc = "The requseted rohit is not found";
       // compare returned description
       assert.equal(expectedDesc, err);
 
